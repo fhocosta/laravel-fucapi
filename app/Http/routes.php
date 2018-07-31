@@ -15,4 +15,8 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::resource('student', 'StudentsController');
+Route::resource('cargos','CargoController');
+Route::resource('dados','DadosController');
+Route::resource('setores','SetorController');
+Route::resource('times','TimeController');
+Route::resource('usuarios','UsuarioController');
